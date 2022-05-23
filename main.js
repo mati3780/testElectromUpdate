@@ -14,8 +14,15 @@ const {autoUpdater} = require("electron-updater");
 // but it sure makes debugging easier :)
 //-------------------------------------------------------------------
 autoUpdater.logger = log;
-autoUpdater.logger.transports.file.level = 'info';
+autoUpdater.logger.transports.file.level = 'debug';
 log.info('App starting...');
+
+autoUpdater.setFeedURL({
+    provider: 'github',
+    repo: 'testElectromUpdate',
+    owner: 'mati3780'//,
+    token: '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'
+})
 
 //-------------------------------------------------------------------
 // Define the menu
