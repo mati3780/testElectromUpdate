@@ -6,7 +6,8 @@
   "author": "Matt Haggard",
   "scripts": {
     "publish": "electron-builder -p always",
-    "dist": "electron-builder"
+    "dist": "electron-builder",
+      "start": "electron ."
   },
   "publish": [
     {

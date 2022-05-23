@@ -21,7 +21,7 @@ autoUpdater.setFeedURL({
     provider: 'github',
     repo: 'testElectromUpdate',
     owner: 'mati3780'//,
-    token: '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'
+    //token: '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'
 })
 
 //-------------------------------------------------------------------
